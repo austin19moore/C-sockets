@@ -1,0 +1,9 @@
+$ ./server 1540
+(client sent GETUSERID: 1)
+(client sent GETUSERID: 7)
+(client sent GETUSERID: 10)
+(client sent GETUSERID: -1)
+(client sent GETUSERID: 5)
+(client sent GETUSERID: STOP)
+STOPPING
+Killed

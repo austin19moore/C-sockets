@@ -1,0 +1,42 @@
+$ ./client DESKTOP-KHJ0SKF 1540
+Waiting for Ctrl-C...
+^C
+Ctrl-C pressed.
+Enter a salary ID (or STOP): 1
+(Server sent: Bob, $200000.00)
+Employee salary: Bob, $200000.00
+$ ./client DESKTOP-KHJ0SKF 1540
+Waiting for Ctrl-C...
+7
+^C
+Ctrl-C pressed.
+Enter a salary ID (or STOP): 7
+(Server sent: Steve, $800000.00)
+Employee salary: Steve, $800000.00
+$ ./client DESKTOP-KHJ0SKF 1540
+Waiting for Ctrl-C...
+10
+^C
+Ctrl-C pressed.
+Enter a salary ID (or STOP): 10
+(Server sent: ERROR)
+ERROR: ID not in range.
+$ ./client DESKTOP-KHJ0SKF 1540
+Waiting for Ctrl-C...
+^C
+Ctrl-C pressed.
+Enter a salary ID (or STOP): -1
+(Server sent: ERROR)
+ERROR: ID not in range.
+$ ./client DESKTOP-KHJ0SKF 1540
+Waiting for Ctrl-C...
+^C
+Ctrl-C pressed.
+Enter a salary ID (or STOP): 5
+(Server sent: John, $600000.00)
+Employee salary: John, $600000.00
+$ ./client DESKTOP-KHJ0SKF 1540
+Waiting for Ctrl-C...
+^C
+Ctrl-C pressed.
+Enter a salary ID (or STOP): STOP
